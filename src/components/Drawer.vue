@@ -64,9 +64,9 @@ const buttonDisabled = computed(() => isCreating.value || cartIsEmpty.value)
 
       <div class="flex flex-col gap-4 mt-7">
         <div class="flex gap-2">
-          <span>Итого:</span>
+          <span>Total:</span>
           <div class="flex-1 border-b border-dashed"></div>
-          <b>{{ totalPrice }} ₽</b>
+          <b>{{ totalPrice }} $</b>
         </div>
 
         <div class="flex gap-2">
